@@ -1,4 +1,4 @@
-# Mini ERP Java Swing + MySQL
+# Mini ERP Java Swing + PostgreSQL
 
 Bu proje, **Java Swing** ile geliştirilmiş basit bir **ERP uygulaması**dır. Personel yönetimi üzerine kuruludur ve **MySQL veritabanı** ile çalışır. CRUD işlemleri (Create, Read, Update, Delete) desteklenir.
 ---
