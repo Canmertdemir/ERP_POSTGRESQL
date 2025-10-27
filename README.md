@@ -1,4 +1,3 @@
-# Mini ERP Java Swing + PostgreSQL
 
 # 🏢 ERP PostgreSQL - Personel Yönetim Sistemi
 
