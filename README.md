@@ -3,7 +3,7 @@
 Bu proje, **Java Swing** ile geliştirilmiş basit bir **ERP uygulaması**dır. Personel yönetimi üzerine kuruludur ve **MySQL veritabanı** ile çalışır. CRUD işlemleri (Create, Read, Update, Delete) desteklenir.
 ---
 
-## 📂 Dosya Yapısı
+##  Dosya Yapısı
 
 ```
 ERP-MySQL/
@@ -49,23 +49,16 @@ FLUSH PRIVILEGES;
 ```
 
 ---
-## ⚙️ Java Projesi Kurulumu
+##  Java Projesi Kurulumu
 
 1. IntelliJ IDEA’da yeni Java Project oluşturun.
 2. `src` ve `lib` dizinlerini oluşturun.
 3. `lib/` içerisine **mysql-connector-java-x.x.x.jar** dosyasını ekleyin.
 4. IntelliJ’de **Project Structure → Libraries → Add JAR** ile JDBC driver ekleyin.
 
-## 🖥️ UI Katmanı
+##  UI Katmanı
 
 * **ERPFrame.java** → Ana pencere, menü ve personel panelini içerir.
 * **PersonelPanel.java** → Personel listesini JTable ile gösterir, ekleme/düzenleme/silme butonları içerir.
 * **PersonelForm.java** → Personel ekleme/düzenleme formu.
-
----
-## ⚠️ Notlar
-
-* JDBC URL’de **useSSL=false&serverTimezone=UTC** parametrelerini unutmayın.
-* Eğer MySQL uzak sunucu ise `localhost` yerine IP yazın.
-* MySQL kullanıcı yetkilerini kontrol edin.
 
